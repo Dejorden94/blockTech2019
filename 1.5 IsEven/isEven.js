@@ -1,10 +1,15 @@
 function isEven (num){
-	else if (num % 2 === 0) {
+if (num >= 0){ 	
+	if (num % 2 === 0) {
 		return true;
 	}
 	else  {
 		return false;
 	}
+}
+else {
+	console.log ("Voer een positief getal in.")
+}
 }
 
 console.log(isEven(50));
